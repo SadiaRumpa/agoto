@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.cake-container {
+    position: relative;
+    margin: 50px auto;
+    width: 300px;
+}
+
+.cake {
+    width: 100%;
+    height: auto;
+}
+
+.candles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.candle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.slideshow-container {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 600px;
+    overflow: hidden; /* This prevents overflow of content */
+}
+
+.slide {
+    display: none;
+    text-align: center;
+}
+
+.slide img {
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    object-fit: contain; /* Keeps the image proportionate and contained */
+}
+
+.slide p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
